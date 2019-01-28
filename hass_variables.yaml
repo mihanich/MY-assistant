@@ -1,0 +1,4 @@
+#Homeassistant variables
+basic:
+  hassurl: 'http://localhost:8123/api/'
+  hass_api_pass: '12345678'

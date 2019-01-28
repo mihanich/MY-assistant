@@ -1,0 +1,9 @@
+[Unit]
+Description=gree climate bridge service
+After=network.target mosquitto.service
+
+[Service]
+ExecStart=/home/pi/squeezebox_assistant/scripts/gree_clima2.sh
+
+[Install]
+WantedBy=multi-user.target

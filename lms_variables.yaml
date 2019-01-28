@@ -1,0 +1,11 @@
+#LMS variables. change to own server
+basic:
+  user: ''
+  passwd: ''
+  url: 'http://localhost:9000/status.html?'
+volume:
+  defvolume: '90'
+  lessvolume: '-30'
+directories:
+  workdir: '/home/pi/squeezebox_assistant/'
+  audiodir: '/home/pi/squeezebox_assistant/audio/'

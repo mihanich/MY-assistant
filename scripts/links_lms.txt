@@ -1,0 +1,3 @@
+1. please do not forget to update squeezelite data according to http://www.gerrelt.nl/RaspberryPi/wordpress/tutorial-stand-alone-squeezebox-server-and-player-for-bbq/
+2. https://squeezebox-googlemusic.github.io/squeezebox-googlemusic/repository/repo.xml #google play support
+3. material skin from repo

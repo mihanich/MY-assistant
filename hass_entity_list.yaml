@@ -1,0 +1,4 @@
+### Section for switches
+switches:
+  wall_switch:
+    - "wall_switch_left_158d0001a4efdc"

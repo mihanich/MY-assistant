@@ -1,0 +1,54 @@
+# Keywords are certain specific word/words that must be present in the user query/command to trigger the custom action.
+# Feel free to modify, but make sure that each custom action has unique keyword.
+# CHANGE THE WORD PRESENT WITHIN THE QUOTES ONLY. DO NOT ALTER OTHERS
+
+Keywords:
+  # Sending recipe to mobile devices
+  Recipe_pushbullet:
+    - 'ингридиенты'
+  # Stream songs from YouTube
+  YouTube_music_stream:
+    - 'youtube'
+  # Stop music and radio playback
+  Stop_music:
+    - 'остановить всё'
+  # Music pause/resume
+  Pause_resume:
+    - 'музыка пауза'
+    - 'продолжить воспроизведение'
+  # Change tracks
+  Track_change:
+    Next:
+      - 'следующий трек'
+      - 'следующая песня'
+      - 'дальше'
+    Previous:
+      - 'предыдущий трек'
+      - 'предыдущая песня'
+      - 'назад'
+  #Control music/vlc volume
+  music_volume:
+    - 'громкость музыки'
+
+#Do not change the Dict below
+Dict:
+  Album: 'альбом'
+  All_songs: 'все песни'
+  Artist: 'исполнитель'
+  Brightness: 'яркость'
+  By: 'от'
+  Change: 'сменить'
+  Colour: 'цвет'
+  Decrease: 'уменьшить'
+  Down:  'вниз'
+  From: 'из'
+  Increase: 'увеличить'
+  Maximum: 'максимум'
+  Minimum: 'минимум'
+  'Off': 'выключить'
+  'On': 'включить'
+  Play: 'играть'
+  Reduce: 'снизить'
+  Set: 'установить'
+  To: 'в'
+  Up: 'вверх'

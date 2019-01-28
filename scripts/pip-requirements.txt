@@ -1,0 +1,12 @@
+psutil>=5.4.8
+urllib3>=1.24.1
+google-api-python-client>=1.7.5
+requests>=2.20.1
+pushbullet.py>=0.11.0
+pyyaml==3.13
+pubnub
+pyaudio
+google-assistant-library
+google-assistant-grpc
+google-assistant-sdk
+google-assistant-sdk[samples]
