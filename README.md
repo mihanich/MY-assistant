@@ -3,9 +3,9 @@ Repo for scripts and some config examples for google assistant with additional s
 Most part of code here - aggregation from available open sources like GitHub.
 
 ## NOTE
-I'm just doing this for my self. 
-If you want to help or improve - you're welcome. 
-For code maintainers - guys, you're rock! 
+I'm just doing this for my self.
+If you want to help or improve - you're welcome.
+For code maintainers - guys, you're rock!
 Big Thank You to every person who share knowladge!
 
 # Pre-requisites
@@ -60,13 +60,17 @@ Not found. Main pain - credentials for lms admin page. (gmusic and youtube)
 ### Possible issues
 1. change screensaver config and rotation manually (i don't know why this doesn't work)
 
-# To Be Reviewed
 ## Homeassistant and MQTT
 ### Installation
 !!! in case you want to use as smart home - install hassbian as a base.
 1. run install_hass.sh (and be accurate. I'm stop using this after install hassbian as a base) and wait
 2. Install mosquitto and configure it on home assistant frontend.
-3. install mosquitto.serice with  'sudo cp squeezebox_assistant/systemd/mosquitto.serice /lib/systemd/system/'
-4. Enable it sudo systemctl enable lmsassistant.service && sudo systemctl start lmsassistant.service
----- Mosqitto+gree brocker+shell-------
-5. need look on home system
+3. install mosquitto serice and bridges:
+    sudo cp systemd/mosquitto.serice /lib/systemd/system/
+    sudo cp systemd/gree-climate-bridge.service /lib/systemd/system/
+    sudo cp systemd/gree-climate-bridge2.service /lib/systemd/system/
+4. Enable each with:
+    sudo systemctl enable //NAME//.service && sudo systemctl start //NAME//.service
+
+
+# To Be Reviewed
